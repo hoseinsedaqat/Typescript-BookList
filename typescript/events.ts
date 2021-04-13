@@ -1,5 +1,4 @@
 // Event : Add Data to Book lists
-
 document.getElementById('add')?.addEventListener("click", e => {
     e.preventDefault();
     const inputBook = (document.getElementById('name')! as HTMLInputElement).value;
