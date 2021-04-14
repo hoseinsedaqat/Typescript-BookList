@@ -18,7 +18,6 @@ document.getElementById('add')?.addEventListener("click", e => {
 
 
 // Event : Deleted Book From List
-
 document.addEventListener("click", e => {
     if ((e.target as HTMLElement).classList.contains('fa-remove')) {
         (e.target as HTMLElement).parentElement?.parentElement?.remove();
